@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Justin Riley</title>
+  <script src="https://kit.fontawesome.com/d6a4cf5c50.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="styles/styles.css" type="text/css">
 </head>
 <body>
@@ -27,7 +28,7 @@
     </nav>
   <h1 class=introduction>Hi, I'm Justin.</h1>
   <p class="intro-p">
-    I am a self taught developer with a passion for creating. I love UI/UX design, the process of figuring out how to impact users is exciting.
+    I am a self taught fornt end developer with a passion for creating. I love UI/UX design, the process of figuring out how to impact users is exciting.
     </p>
 
   </section>
@@ -37,16 +38,22 @@
     </section>
     <!-- this will inlude footer and closing links. -->
     <section id="closing">
-
+  <form action="" id="contact" name="contact">
+    <label for="fname">First Name: </label>
+    <input type="text" name="fname" id="fname">
+    <label for="lname">Last Name: </label>
+    <input type="text" name="lname" id="lname">
+    <label for="comment"></label>
+    <textarea form="contact" name="comment" id="comment" rows="10" cols="50" placeholder="Reach out Here!"></textarea>
+    <label for="submit-btn"></label>
+    <button form="contact" type="submit" name="submit-note">Send A Note.</button>
+  </form>
       </section>
-
-
-
-
-
-
-
-
-
+<footer class="social links">
+  <ul>
+    <li><a href="" target="_new"><i class="fab fa-instagram fa-2x"></i></a></li>
+    <li><a href="https://www.linkedin.com/in/riley-justin/" target="_new"><i class="fab fa-linkedin fa-2x"></i></a></li>
+  </ul>
+</footer>
 </body>
 </html>
